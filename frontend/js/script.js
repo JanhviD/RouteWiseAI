@@ -7,7 +7,7 @@ async function generateTrip() {
     const travelStyle = document.getElementById("travelStyle").value;
 
     // Send data to Flask backend
-    const response = await fetch("http://127.0.0.1:5000/generate-trip", {
+    const response = await fetch("https://routewiseai-gtpy.onrender.com/generate-trip", {
 
         method: "POST",
 
