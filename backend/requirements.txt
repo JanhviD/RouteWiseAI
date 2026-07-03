@@ -4,3 +4,4 @@ mysql-connector-python
 google-generativeai
 requests
 python-dotenv
+gunicorn
