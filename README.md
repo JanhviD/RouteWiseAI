@@ -1,76 +1,47 @@
 # 🌍 RouteWise AI
 
-RouteWise AI is an AI-powered travel planner that generates personalized travel itineraries based on the user's destination, budget, number of days, and travel style. It also provides real-time weather information for the selected destination.
+An AI-powered travel planner built using Flask, HTML, CSS, JavaScript, Google Gemini AI, and OpenWeather API. It generates personalized travel itineraries and provides real-time weather updates.
 
----
+## 🚀 Live Demo
 
-## 🚀 Features
+**Frontend:** https://janhvid.github.io/RouteWiseAI/
 
-- 🤖 AI-generated travel itinerary using Google Gemini API
-- 🌦 Real-time weather information using OpenWeather API
-- 💰 Budget-based travel planning
-- 🗓 Personalized day-wise itinerary
-- 💾 Stores trip details in MySQL database
-- 📱 Responsive user interface
+**Backend:** https://routewiseai-gtpy.onrender.com/
 
----
+## ✨ Features
+
+- AI-generated travel itinerary
+- Real-time weather information
+- Budget-based trip planning
+- Personalized travel plans
+- Responsive user interface
 
 ## 🛠 Technologies Used
 
-- HTML5
-- CSS3
+- Python
+- Flask
+- HTML
+- CSS
 - JavaScript
-- Flask (Python)
-- MySQL
-- Google Gemini API
+- Google Gemini AI
 - OpenWeather API
+- Git & GitHub
+- GitHub Pages
+- Render
 
----
+## 📷 Screenshots
 
-## 📂 Project Structure
+### Home Page
+![Home](images/home.png)
 
-RouteWiseAI
-│
-├── backend
-│ ├── app.py
-│ └── requirements.txt
-│
-├── frontend
-│ ├── index.html
-│ ├── planner.html
-│ ├── results.html
-│ ├── css
-│ └── js
-│
-└── README.md
+### Trip Planner
+![Planner](images/planner.png)
 
----
+### AI Generated Travel Plan
+![Results](images/results.png)
 
-## ⚙ How to Run
-
-1. Clone the repository.
-2. Install the required Python packages.
-
-```bash
-pip install -r requirements.txt
-```
-
-3. Run Flask.
-
-```bash
-python app.py
-```
-
-4. Open the frontend using Live Server.
-
----
-
-## 📸 Screenshots
-
-(Add screenshots here after uploading to GitHub.)
-
----
-
-## 👩‍💻 Developed By
+## 👩‍💻 Author
 
 **Janhvi Dighore**
+
+GitHub: https://github.com/JanhviD
