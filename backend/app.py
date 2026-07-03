@@ -12,14 +12,14 @@ CORS(app)
 
 # ---------------- DATABASE ----------------
 
-db = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    password="Mysqljd@247",
-    database="routewise_ai"
-)
+# db = mysql.connector.connect(
+#     host="localhost",
+#     user="root",
+#     password="Mysqljd@247",
+#     database="routewise_ai"
+# )
 
-cursor = db.cursor()
+# cursor = db.cursor()
 
 # ---------------- GEMINI ----------------
 
@@ -47,15 +47,16 @@ def generate_trip():
     travel_style = data.get("travelStyle")
 
     # Save trip in database
-    cursor.execute(
-        """
-        INSERT INTO trips (destination, budget, days, travel_style)
-        VALUES (%s, %s, %s, %s)
-        """,
-        (destination, budget, days, travel_style)
-    )
 
-    db.commit()
+# cursor.execute(
+#     """
+#     INSERT INTO trips (destination, budget, days, travel_style)
+#     VALUES (%s, %s, %s, %s)
+#     """,
+#     (destination, budget, days, travel_style)
+# )
+
+# db.commit()
 
     # Gemini Prompt
     prompt = f"""
