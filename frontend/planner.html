@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RouteWise AI - Planner</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h2>RouteWise AI</h2>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="planner.html">Planner</a>
+        </nav>
+    </header>
+
+    <section class="planner-container">
+
+        <h1>Plan Your Trip</h1>
+
+        <p>
+            Enter your travel details and let RouteWise AI generate a personalized travel plan.
+        </p>
+
+       <form class="planner-form">
+
+    <label>Destination</label>
+    <input type="text" id="destination" placeholder="Enter destination">
+
+    <label>Budget</label>
+    <input type="number" id="budget" placeholder="Enter budget">
+
+    <label>Number of Days</label>
+    <input type="number" id="days" placeholder="Number of days">
+
+    <label>Travel Style</label>
+    <select id="travelStyle">
+        <option>Budget</option>
+        <option>Luxury</option>
+        <option>Adventure</option>
+    </select>
+
+    <button type="button" onclick="generateTrip()">
+        Generate Plan
+    </button>
+
+</form>
+    </section>
+    <div id="result"></div>
+    <script src="js/script.js"></script>
+<footer>
+    <p>© 2026 RouteWise AI | Developed by Janhvi Dighore</p>
+</footer>
+</body>
+</html>

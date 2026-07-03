@@ -1,0 +1,30 @@
+Project Name:RouteWise AI
+
+Tagline:AI-Powered Travel Planning Platform
+
+Problem:Planning trips takes time and research.
+
+Solution:RouteWise AI generates personalized travel plans based on destination, budget, trip duration, and travel style.
+
+Inputs:
+- Destination
+- Budget
+- Number of Days
+- Travel Style
+
+Outputs:
+- Day-wise itinerary
+- Budget breakdown
+- Packing checklist
+- Travel tips
+
+Tech Stack:
+Frontend:HTML
+         CSS
+         JavaScript
+
+Backend:Java Spring Boot
+
+Database: MySQL
+
+AI: Gemini API

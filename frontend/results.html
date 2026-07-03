@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RouteWise AI - Results</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <h2>RouteWise AI</h2>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="planner.html">Planner</a>
+    </nav>
+</header>
+
+<section class="results-container">
+
+    <h1>Your Travel Plan</h1>
+
+<div class="result-card">
+
+    <h2>Generated Trip</h2>
+
+    <p id="tripResult"></p>
+
+</div>
+
+<div class="result-card">
+
+    <h2>🌤 Current Weather</h2>
+
+    <p id="weatherResult"></p>
+
+</div>
+
+</section>
+<script>
+
+const trip = JSON.parse(localStorage.getItem("tripPlan"));
+
+document.getElementById("tripResult").innerHTML = `
+<strong>Destination:</strong> ${trip.destination}<br><br>
+
+<strong>Budget:</strong> ₹${trip.budget}<br><br>
+
+<strong>Days:</strong> ${trip.days}<br><br>
+
+<strong>Travel Style:</strong> ${trip.travelStyle}<br><br>
+
+<strong>AI Generated Travel Plan:</strong><br><br>
+
+${trip.tripPlan.replace(/\n/g,"<br>")}
+
+`;
+document.getElementById("weatherResult").innerHTML = `
+<strong>Temperature:</strong> ${trip.temperature} °C<br><br>
+
+<strong>Condition:</strong> ${trip.condition}<br><br>
+
+<strong>Humidity:</strong> ${trip.humidity}%<br><br>
+
+<strong>Wind Speed:</strong> ${trip.windSpeed} m/s
+`;
+
+</script>
+<footer>
+    <p>© 2026 RouteWise AI | Developed by Janhvi Dighore</p>
+</footer>
+</body>
+</html>
