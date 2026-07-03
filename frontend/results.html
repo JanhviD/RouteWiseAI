@@ -36,6 +36,13 @@
     <p id="weatherResult"></p>
 
 </div>
+<div class="result-card">
+
+    <h2>🤖 AI Travel Plan</h2>
+
+    <p id="aiPlan"></p>
+
+</div>
 
 </section>
 <script>
@@ -49,12 +56,7 @@ document.getElementById("tripResult").innerHTML = `
 
 <strong>Days:</strong> ${trip.days}<br><br>
 
-<strong>Travel Style:</strong> ${trip.travelStyle}<br><br>
-
-<strong>AI Generated Travel Plan:</strong><br><br>
-
-${trip.tripPlan.replace(/\n/g,"<br>")}
-
+<strong>Travel Style:</strong> ${trip.travelStyle}
 `;
 document.getElementById("weatherResult").innerHTML = `
 <strong>Temperature:</strong> ${trip.temperature} °C<br><br>
@@ -65,7 +67,8 @@ document.getElementById("weatherResult").innerHTML = `
 
 <strong>Wind Speed:</strong> ${trip.windSpeed} m/s
 `;
-
+document.getElementById("aiPlan").innerHTML =
+trip.tripPlan.replace(/\n/g,"<br>");
 </script>
 <footer>
     <p>© 2026 RouteWise AI | Developed by Janhvi Dighore</p>
