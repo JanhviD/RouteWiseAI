@@ -16,19 +16,6 @@ An AI-powered travel planner built using Flask, HTML, CSS, JavaScript, Google Ge
 - Personalized travel plans
 - Responsive user interface
 
-## 🛠 Technologies Used
-
-- Python
-- Flask
-- HTML
-- CSS
-- JavaScript
-- Google Gemini AI
-- OpenWeather API
-- Git & GitHub
-- GitHub Pages
-- Render
-
 ## 📷 Screenshots
 
 ### Home Page
