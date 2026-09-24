@@ -16,17 +16,6 @@ An AI-powered travel planner built using Flask, HTML, CSS, JavaScript, Google Ge
 - Personalized travel plans
 - Responsive user interface
 
-## 📷 Screenshots
-
-### Home Page
-![Home](images/home.png)
-
-### Trip Planner
-![Planner](images/planner.png)
-
-### AI Generated Travel Plan
-![Results](images/results.png)
-
 ## 👩‍💻 Author
 
 **Janhvi Dighore**
